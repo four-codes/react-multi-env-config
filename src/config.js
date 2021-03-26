@@ -70,6 +70,4 @@ const config =
     ? test
     : dev;
 
-export default {
-  ...config,
-};
+export default config;

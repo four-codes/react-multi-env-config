@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:dev": "REACT_APP_STAGE=dev react-scripts start",
+    "start:production": "REACT_APP_STAGE=prod react-scripts start",
+    "start:test": "REACT_APP_STAGE=sit react-scripts start",
+    "start:sit": "REACT_APP_STAGE=test react-scripts start"
   },
   "eslintConfig": {
     "extends": [

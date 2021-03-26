@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import config from './config'
+
+
 
 function App() {
   return (
@@ -7,7 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>{ config.s3.BUCKET }</code> and save to reload.
+          { process.env.REACT_APP_STAGE  }
         </p>
         <a
           className="App-link"

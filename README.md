@@ -14,6 +14,8 @@ MultiStage build
     
  _Based on the environment deployment before the build, you should replace those values with the tokanize task in Azure DevOps and build to pick it up with appropriate commands._
  
+ _config.js_
+ 
  ```js
  var dev = {
     s3: {
